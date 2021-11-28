@@ -1504,14 +1504,14 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		-moz-flex-grow: 1;
-		-webkit-flex-grow: 1;
-		-ms-flex-grow: 1;
-		flex-grow: 1;
-		-moz-flex-shrink: 1;
-		-webkit-flex-shrink: 1;
-		-ms-flex-shrink: 1;
-		flex-shrink: 1;
+		-moz-flex-grow: 0.5;
+		-webkit-flex-grow: 0.5;
+		-ms-flex-grow: 0.5;
+		flex-grow: 0.5;
+		-moz-flex-shrink: 0.5;
+		-webkit-flex-shrink: 0.5;
+		-ms-flex-shrink: 0.5;
+		flex-shrink: 0.5;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
