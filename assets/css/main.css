@@ -1504,14 +1504,14 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		-moz-flex-grow: 0.5;
-		-webkit-flex-grow: 0.5;
-		-ms-flex-grow: 0.5;
-		flex-grow: 0.5;
-		-moz-flex-shrink: 0.5;
-		-webkit-flex-shrink: 0.5;
-		-ms-flex-shrink: 0.5;
-		flex-shrink: 0.5;
+		-moz-flex-grow: 1;
+		-webkit-flex-grow: 1;
+		-ms-flex-grow: 1;
+		flex-grow: 1;
+		-moz-flex-shrink: 1;
+		-webkit-flex-shrink: 1;
+		-ms-flex-shrink: 1;
+		flex-shrink: 1;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -1534,10 +1534,10 @@ input, select, textarea {
 	}
 
 		#main article {
-			-moz-transform: translateY(0.25rem);
-			-webkit-transform: translateY(0.25rem);
-			-ms-transform: translateY(0.25rem);
-			transform: translateY(0.25rem);
+			-moz-transform: translateY(0rem);
+			-webkit-transform: translateY(0rem);
+			-ms-transform: translateY(0rem);
+			transform: translateY(0rem);
 			-moz-transition: opacity 0.325s ease-in-out, -moz-transform 0.325s ease-in-out;
 			-webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
 			-ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
